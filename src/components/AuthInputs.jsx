@@ -41,8 +41,8 @@ export default function AuthInputs() {
           onChange={(event) => handleInputChange('password', event.target.value)}
         />
       </div>
-      <div className="actions">
-        <button type="button" className="text-button">
+      <div className="flex justify-end gap-4">
+        <button type="button" className="text-amber-400 hover:text-amber-500">
           Create a new account
         </button>
         <Button onClick={handleLogin}>Sign In</Button>
